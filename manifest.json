@@ -5,9 +5,11 @@
   "description": "Real-time payload injection tool for security testing and pentesting",
   "permissions": [
     "webRequest",
+    "webRequestBlocking",
     "storage",
     "activeTab",
-    "scripting"
+    "scripting",
+    "downloads"
   ],
   "host_permissions": [
     "<all_urls>"
